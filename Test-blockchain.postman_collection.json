@@ -1,0 +1,353 @@
+{
+	"info": {
+		"_postman_id": "075c451c-be58-48ff-866e-f17177204f57",
+		"name": "Test-blockchain",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5890426"
+	},
+	"item": [
+		{
+			"name": "Test case (ID-1)",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"config\": {\n\"address\": \"2Mxpa3qoDZUi7kMYCcxL39sJtpp6HUCsStE\",\n\"privateKey\": \"tprv8ZgxMBicQKsPeG429hrfTjEyNJ5XW6VABnQixEoNWNKFua4XJPR8WXgpkrqzbwYCK8JM1xsw6wMbnNJgk6E9c5aRr7YGE7QLrdzuu6w4SJk\",\n\"wif\": true\n},\n\"data\": [\n{\n\"address\": \"2N84jDnGZ1PWmnSQnT13AM5iv2wVYemCF7x\",\n\"amount\": \"0.00002\"\n}\n]\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3023/bitcoin/transactions/send",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3023",
+					"path": [
+						"bitcoin",
+						"transactions",
+						"send"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test case (ID-2)",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"config\": {\n\"address\": \"2Mxpa3qoDZUi7kMYCcxL39sJtpp6HUCsStE\",\n\"privateKey\": \"tprv8ZgxMBicQKsPeG429hrfTjEyNJ5XW6VABnQixEoNWNKFua4XJPR8WXgpkrqzbwYCK8JM1xsw6wMbnNJgk6E9c5aRr7YGE7QLrdzuu6w4SJk\",\n\"wif\": true\n},\n\"data\": [\n{\n\"address\": \"2N84jDnGZ1PWmnSQnT13AM5iv2wVYemCF7x\",\n\"amount\": \"0.00002\"\n}\n]\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3023/bitcoin/transactions/send",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3023",
+					"path": [
+						"bitcoin",
+						"transactions",
+						"send"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test case (ID-3)",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"config\": {\n\"address\": \"2Mxpa3qoDZUi7kMYCcxL39sJtpp6HUCsStE\",\n\"privateKey\": \"tprv8ZgxMBicQKsPeG429hrfTjEyNJ5XW6VABnQixEoNWNKFua4XJPR8WXgpkrqzbwYCK8JM1xsw6wMbnNJgk6E9c5aRr7Y11111111\",\n\"wif\": true\n},\n\"data\": [\n{\n\"address\": \"2N84jDnGZ1PWmnSQnT13AM5iv2wVYemCF7x\",\n\"amount\": \"0.00002\"\n}\n]\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3023/bitcoin/transactions/send",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3023",
+					"path": [
+						"bitcoin",
+						"transactions",
+						"send"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test case (ID-4)",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"config\": {\n\"address\": \"2Mxpa3qoDZUi7kMYCcxL39sJt111111\",\n\"privateKey\": \"tprv8ZgxMBicQKsPeG429hrfTjEyNJ5XW6VABnQixEoNWNKFua4XJPR8WXgpkrqzbwYCK8JM1xsw6wMbnNJgk6E9c5aRr7YGE7QLrdzuu6w4SJk\",\n\"wif\": true\n},\n\"data\": [\n{\n\"address\": \"2N84jDnGZ1PWmnSQnT13AM5iv2wVYemCF7x\",\n\"amount\": \"0.00002\"\n}\n]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3023/bitcoin/transactions/send",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3023",
+					"path": [
+						"bitcoin",
+						"transactions",
+						"send"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test case (ID-5.1) (zero value)",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"config\": {\n\"address\": \"2Mxpa3qoDZUi7kMYCcxL39sJtpp6HUCsStE\",\n\"privateKey\": \"tprv8ZgxMBicQKsPeG429hrfTjEyNJ5XW6VABnQixEoNWNKFua4XJPR8WXgpkrqzbwYCK8JM1xsw6wMbnNJgk6E9c5aRr7YGE7QLrdzuu6w4SJk\",\n\"wif\": true\n},\n\"data\": [\n{\n\"address\": \"2N84jDnGZ1PWmnSQnT13AM5iv2wVYemCF7x\",\n\"amount\": \"0\"\n}\n]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3023/bitcoin/transactions/send",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3023",
+					"path": [
+						"bitcoin",
+						"transactions",
+						"send"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test case (ID-5.2) (negative value)",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"config\": {\n\"address\": \"2Mxpa3qoDZUi7kMYCcxL39sJtpp6HUCsStE\",\n\"privateKey\": \"tprv8ZgxMBicQKsPeG429hrfTjEyNJ5XW6VABnQixEoNWNKFua4XJPR8WXgpkrqzbwYCK8JM1xsw6wMbnNJgk6E9c5aRr7YGE7QLrdzuu6w4SJk\",\n\"wif\": true\n},\n\"data\": [\n{\n\"address\": \"2N84jDnGZ1PWmnSQnT13AM5iv2wVYemCF7x\",\n\"amount\": \"-0.0001\"\n}\n]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3023/bitcoin/transactions/send",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3023",
+					"path": [
+						"bitcoin",
+						"transactions",
+						"send"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test case (ID-5.3) (to big value)",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"config\": {\n\"address\": \"2Mxpa3qoDZUi7kMYCcxL39sJtpp6HUCsStE\",\n\"privateKey\": \"tprv8ZgxMBicQKsPeG429hrfTjEyNJ5XW6VABnQixEoNWNKFua4XJPR8WXgpkrqzbwYCK8JM1xsw6wMbnNJgk6E9c5aRr7YGE7QLrdzuu6w4SJk\",\n\"wif\": true\n},\n\"data\": [\n{\n\"address\": \"2N84jDnGZ1PWmnSQnT13AM5iv2wVYemCF7x\",\n\"amount\": \"1\"\n}\n]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3023/bitcoin/transactions/send",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3023",
+					"path": [
+						"bitcoin",
+						"transactions",
+						"send"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test case (ID-6)",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"config\": {\n\"address\": \"QTnRC7j5Ku2pbMoV3tDpdBtEWXYrinFW5v\",\n\"privateKey\": \"ttpv96BtqegdxXceQjRWRSFsiDNz5rbpFfi6xu8kpAoBtueieCmwm82doKKAtopiQkNbmzwpwUXiv8dhMZEdhAuTnzBKRqDZQYAiwxcoCP3tcz3\",\n\"wif\": true\n},\n\"data\": [\n{\n\"address\": \"QhVcyHPsg5KHqawD3vTqnfSiEBpVxziRkk\",\n\"amount\": \"0.0002\"\n}\n]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3023/litecoin/transactions/send",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3023",
+					"path": [
+						"litecoin",
+						"transactions",
+						"send"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test case (ID-7)",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"config\": {\n\"address\": \"QTnRC7j5Ku2pbMoV3tDpdBtEWXYrinFW5v\",\n\"privateKey\": \"ttpv96Btqegd11111111111AiwxcoCP3tcz3\",\n\"wif\": true\n},\n\"data\": [\n{\n\"address\": \"QhVcyHPsg5KHqawD3vTqnfSiEBpVxziRkk\",\n\"amount\": \"0.0002\"\n}\n]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3023/bitcoin/transactions/send",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3023",
+					"path": [
+						"bitcoin",
+						"transactions",
+						"send"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test case (ID-8)",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"config\": {\n\"address\": \"QTnRsxcwe1111111pdBtEWXYrinFW5v\",\n\"privateKey\": \"ttpv96BtqegdxXceQjRWRSFsiDNz5rbpFfi6xu8kpAoBtueieCmwm82doKKAtopiQkNbmzwpwUXiv8dhMZEdhAuTnzBKRqDZQYAiwxcoCP3tcz3\",\n\"wif\": true\n},\n\"data\": [\n{\n\"address\": \"QhVcyHPsg5KHqawD3vTqnfSiEBpVxziRkk\",\n\"amount\": \"0.0002\"\n}\n]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3023/bitcoin/transactions/send",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3023",
+					"path": [
+						"bitcoin",
+						"transactions",
+						"send"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test case (ID-9)",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"config\": {\n\"address\": \"2Mxpa3qoDZUi7kMYCcxL39sJtpp6HUCsStE\",\n\"privateKey\": \"tprv8ZgxMBicQKsPeG429hrfTjEyNJ5XW6VABnQixEoNWNKFua4XJPR8WXgpkrqzbwYCK8JM1xsw6wMbnNJgk6E9c5aRr7YGE7QLrdzuu6w4SJk\",\n\"wif\": true\n},\n\"data\": [\n{\n\"address\": \"2N84jDnGZ1PWmnSQnT13AM5iv2wVYemCF7x\",\n\"amount\": \"0.00002\"\n}\n]\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3023/bitcoin/transactions/send",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3023",
+					"path": [
+						"bitcoin",
+						"transactions",
+						"send"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
